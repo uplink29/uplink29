@@ -17709,6 +17709,50 @@ a.purchase-btn:hover {
   color: #999 !important;
   padding: 0 50px;
 }
+.token-page{
+  text-align: center;
+  background-image: linear-gradient(to bottom, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url(https://businesspost.ng/wp-content/uploads/2019/02/photos-of-Nigerian-Banks-1200x714.jpg);
+  height: 100vh;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+.token-page h3{
+  color: #fff;
+  padding-top: 20%;
+  font-size: 40px;
+}
+.token-page input{
+  width: 40%;
+  height: 50px;
+  margin-top: 50px;
+  background-color: #efefef;
+  border: none;
+  font-size: 20px;
+  color: #000;
+}
+.token-page button{
+  height: 50px;
+  color: #fff;
+  padding: 0 15px;
+  font-size: 20px;
+  background-color: #d63031;
+  border: none;
+  cursor: pointer;
+}
+.token-page button:hover{
+  background-color: #c0392b;
+}
+.confirmation{
+  text-align: center;
+  margin-top: 20%;
+}
+.confirmation h3{
+  font-size: 80px;
+}
+.confirmation p{
+  font-size: 25px;
+}
 @media (min-width:320px) {
   .install-button a{
     padding: 5px 50px;
