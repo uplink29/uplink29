@@ -17705,6 +17705,21 @@ a.purchase-btn:hover {
   background-color: #27ACFF;
   text-decoration: none;
 }
+.gettoken-btn a{
+  color: #27ACFF !important;
+  border: 1px solid #27ACFF;
+  padding: 15px 100px;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+.gettoken-btn a:hover {
+  color: #fff !important;
+  background-color: #27ACFF;
+  text-decoration: none;
+}
 .function-text p{
   color: #999 !important;
   padding: 0 50px;
@@ -17753,9 +17768,13 @@ a.purchase-btn:hover {
 .confirmation p{
   font-size: 25px;
 }
-@media (min-width:320px) {
+@media (min-width:375px) {
   .install-button a{
     padding: 5px 50px;
+  }
+  .gettoken-btn a{
+    padding: 5px 50px;
+    margin-top: 20px;
   }
 }
 
