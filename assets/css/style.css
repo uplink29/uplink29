@@ -17760,13 +17760,38 @@ a.purchase-btn:hover {
 }
 .confirmation{
   text-align: center;
-  margin-top: 20%;
 }
 .confirmation h3{
+  margin-top: 20px;
   font-size: 80px;
+  text-transform: uppercase;
+  color: #e74c3c;
 }
 .confirmation p{
-  font-size: 25px;
+  font-size: 19px;
+  text-align: left;
+  padding: 20px;
+}
+.spec-list h4{
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: left;
+  padding-left: 50px;
+  margin-top: 20px;
+}
+.spec-list li {
+  list-style-type: none;
+  padding-left: 50px;
+  letter-spacing: 1.2px;
+  line-height: 30px;
+}
+.map-text p{
+  padding-left: 90px;
+  margin-top: 10%;
+}
+.map-area img{
+  margin-top: 10%;
+  margin-bottom: 15%;
 }
 @media (min-width:375px) {
   .install-button a{
